@@ -1,0 +1,158 @@
+body{
+    background-color: #1e202b;
+    font-family: 'Poppins', sans-serif;
+}
+.home
+{
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 80vh;
+}
+.navbar{
+    background-color: #1e202b !important;
+    
+}
+a {
+    color: #fff !important;
+}
+.navbar a:hover{
+    color:#009ad8 !important;
+    transition:  1s !important;
+}
+.logo{
+    width: 4rem;
+}
+input[type="text"]
+{
+   border-radius: 2rem;
+   padding: 1.2rem;
+  background: rgb(30, 32, 43);
+  border: none;
+
+}
+.locationSearch{
+    position: relative;
+}
+#findLocation{
+    position: absolute;
+    bottom:0.5rem;
+    right: 1%;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    color: #fff;
+    background-color: #009ad8;
+    border: none;
+}
+
+
+.day1 , .day3{
+    background-color: #323544;
+}
+.day2{
+    background-color: #262936;
+}
+
+.day1 , .day3{
+    background-color: #323544 ;
+}
+.day2{
+    background-color: #262936;
+}
+
+.forcast-content span{
+    color: #bfc1c8;
+}
+.day1  .date
+{
+    background-color: #262936;
+    color: #bfc1c8;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+}
+.day2 .date{
+    background-color: #323544;
+    color: #bfc1c8;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+}
+.day3 .date{
+    background-color: #262936;
+    color: #bfc1c8;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+}
+.day1 .location{
+    color: #bfc1c8;
+    font-size: 1.25rem
+    
+}
+.day1 .temp
+{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.day2  .temp h3{
+    font-size: 2rem;
+    color: #fff;
+}
+.day3  .temp h3{
+    font-size: 2rem;
+    color: #fff;
+}
+.day2 , .day3 .temp h4{
+    color: #bfc1c8;
+}
+ .forcast-state h4{
+     color: #009ad8;
+ }
+.forcast-content h3{
+    color: #bfc1c8;
+    font-size: 0.75rem;
+    padding-right: 2rem;
+    padding-left: 0.75rem;
+
+}
+.day1 .icons img{
+    padding-bottom: 1.6rem;
+}
+.icons img{
+    width: 1.25rem;
+}
+   .forcast-state{
+       margin-bottom: 2rem;
+   } 
+
+   .footer
+   {
+    background-color: #262936;
+   }
+  .footer  input[type="email"]
+{
+   border-radius: 1.75rem;
+   padding: 0.75rem;
+  background: rgb(30, 32, 43);
+  border: none;
+}
+
+.footer .icon{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(30, 32, 43);
+    color: #009ad8;
+}
+.icon i 
+{
+    margin: 20px 20px 0 0;
+}
+.icon:hover{
+    background-color: #009ad8;
+    color: #fff;
+    transition: all 2s;
+}
+.footer p{
+    color: #bfc1c8;
+}
